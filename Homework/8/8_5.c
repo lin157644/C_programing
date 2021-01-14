@@ -19,7 +19,6 @@ int main()
 			if(isalpha(c)){
 				if(c>='a') freq[c-'a']++;
 				else freq[c-'A']++;
-				//puts("++ed");
 			}
 		}
 	}

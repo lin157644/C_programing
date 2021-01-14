@@ -35,7 +35,8 @@ void plus(double a, double b)
 void minus(double a, double b)
 {
     printf("%lf - %lf = %lf\n\n", a, b, a-b);
-}void multiply(double a, double b)
+}
+void multiply(double a, double b)
 {
     printf("%lf * %lf = %lf\n\n", a, b, a*b);
 }void divide(double a, double b)

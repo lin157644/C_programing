@@ -16,6 +16,6 @@ int main()
     Date festival;
 
     scanf("%d%*c%d%*c%d", &festival.year, &festival.month, &festival.day);
-    printf("%02d/%02d/%4d\nf",festival.month, festival.day, festival.year);
+    printf("%02d/%02d/%4d\n",festival.month, festival.day, festival.year);
     printf("%02d/%02d/%4d",holiday.month, holiday.day, holiday.year);
 }

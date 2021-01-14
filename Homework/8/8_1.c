@@ -17,7 +17,7 @@ int main()
                 c = getchar();
             }
         }while((c=getchar())!='\n');
-        printf("%d\\n", n);
+        printf("%d\n", n);
     }
 
 
